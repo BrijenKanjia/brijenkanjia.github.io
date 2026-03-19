@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Designer | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #0a0a0a; --card: #161616; --accent: #ffffff; --text: #a0a0a0; }
+        body { background: var(--bg); color: white; font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 80px 20px; }
+        
+        /* Header Style */
+        header { margin-bottom: 100px; }
+        h1 { font-size: 3.5rem; letter-spacing: -2px; margin: 0; }
+        .subtitle { color: var(--text); font-size: 1.2rem; font-weight: 300; }
+
+        /* Project Card Style - Brijen Kanjia Aesthetic */
+        .project { margin-bottom: 120px; transition: 0.3s; }
+        .project img { width: 100%; border-radius: 12px; filter: grayscale(20%); transition: 0.5s; margin-bottom: 25px; border: 1px solid #333; }
+        .project img:hover { filter: grayscale(0%); transform: scale(1.01); border-color: #666; }
+        .project-tags { color: var(--text); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; display: block; }
+        h2 { font-size: 2rem; margin: 0 0 15px 0; }
+        .description { color: var(--text); max-width: 700px; }
+
+        /* Tech Stack "Pills" */
+        .pills { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+        .pill { background: #222; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; color: #fff; border: 1px solid #333; }
+
+        footer { border-top: 1px solid #222; padding-top: 40px; color: var(--text); font-size: 0.9rem; }
+        a { color: white; text-decoration: none; border-bottom: 1px solid #444; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <span class="project-tags">Mechanical Designer | 8 Years Exp.</span>
+            <h1>BRIJEN KANJIA</h1>
+            <p class="subtitle">Focusing on Kinematics, Industrial Automation, and Product Design logic.</p>
+        </header>
+
+        <section class="project">
+            <span class="project-tags">Mechanism Design • Motion Study</span>
+            <img src="geneva_main.jpg" alt="Geneva Wheel Project">
+            <h2>Conveyor Belt Indexing: Geneva Mechanism</h2>
+            <p class="description">
+                Engineered a 4-slot Geneva wheel system to convert continuous 5V DC motor rotation into precise 90° intermittent steps. 
+                Designed for high-reliability environments where electronic sensor drift must be eliminated through mechanical locking.
+            </p>
+            <div class="pills">
+                <span class="pill">SolidWorks</span><span class="pill">Kinematics</span><span class="pill">H-Bridge</span>
+            </div>
+        </section>
+
+        <section class="project">
+            <span class="project-tags">Mechatronics • Automation</span>
+            <img src="feed_station.jpg" alt="Feed Station Project">
+            <h2>Automatic Feed Station Assembly</h2>
+            <p class="description">
+                A fully automated material handling station featuring laser-integrated sensing. 
+                Developed to synchronize the material feed rate with downstream cutting operations using pneumatic actuation and sheet metal sub-assemblies.
+            </p>
+            <div class="pills">
+                <span class="pill">Laser Sensors</span><span class="pill">Pneumatics</span><span class="pill">Sheet Metal</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>Based in Hamilton, ON. Currently exploring freelance partnerships. <br>
+            <a href="mailto:yourname@email.com">Email</a> / <a href="#">LinkedIn</a> / <a href="#">Resume</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
