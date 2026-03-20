@@ -1,193 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Brijen Kanjia | Mechanical Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Brijen Kanjia 
+Product Designerr</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0a0f1c;
+  color: white;
+}
 
-    /* NAVBAR */
-    nav {
-      position: sticky;
-      top: 0;
-      background: #020617;
-      padding: 15px;
-      text-align: center;
-      z-index: 1000;
-    }
+/* HERO SECTION */
+.hero {
+  display: flex;
+  height: 100vh;
+}
 
-    nav a {
-      color: #38bdf8;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+.left {
+  flex: 1;
+  background: linear-gradient(135deg, #0ea5e9, #1e3a8a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
 
-    nav a:hover {
-      color: white;
-    }
+.left h1 {
+  font-size: 50px;
+  margin: 0;
+}
 
-    header {
-      text-align: center;
-      padding: 100px 20px;
-      background: linear-gradient(135deg, #1e293b, #0f172a);
-    }
+.left p {
+  font-size: 20px;
+  margin-top: 10px;
+}
 
-    header h1 {
-      margin: 0;
-      font-size: 45px;
-    }
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020617;
+}
 
-    header p {
-      margin-top: 10px;
-      color: #94a3b8;
-      font-size: 18px;
-    }
+.right h2 {
+  color: #38bdf8;
+}
 
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 30px;
-      background: #1e293b;
-      border-radius: 12px;
-      box-shadow: 0 4px 25px rgba(0,0,0,0.4);
-      transition: transform 0.3s;
-    }
+/* SECTION STYLE */
+.section {
+  padding: 80px 10%;
+}
 
-    section:hover {
-      transform: translateY(-5px);
-    }
+.section h2 {
+  font-size: 32px;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
 
-    h2 {
-      border-left: 4px solid #38bdf8;
-      padding-left: 10px;
-      color: #38bdf8;
-    }
+.card {
+  background: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
 
-    ul {
-      padding-left: 20px;
-    }
+.card:hover {
+  transform: translateY(-5px);
+  background: #1f2937;
+}
 
-    li {
-      margin-bottom: 8px;
-    }
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
 
-    .project {
-      margin-bottom: 20px;
-      padding: 15px;
-      background: #0f172a;
-      border-radius: 8px;
-      border-left: 3px solid #38bdf8;
-    }
+/* CONTACT */
+.contact {
+  text-align: center;
+}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-      color: #64748b;
-      margin-top: 30px;
-    }
-
-    a {
-      color: #38bdf8;
-    }
-  </style>
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: gray;
+}
+</style>
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#experience">Experience</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
+<!-- HERO -->
+<div class="hero">
+  <div class="left">
+    <h1>Brijen Kanjia</h1>
+    <p>Product Designer</p>
 
-<header>
-  <h1>Brijen Kanjia</h1>
-  <p>Mechanical Engineer | Design & Quality Specialist</p>
-</header>
+    
+    <p>Mechanical design professional specializing in SolidWorks-based product engineering, simulation analysis, and prototype development. Strong background in manufacturing processes, CAD modeling, and engineering validation across product development lifecycles.</p>
+  </div>
 
-<section id="about">
+  <div class="right">
+    <h2>Engineering Precision.<br>Design Excellence.</h2>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
   <h2>About Me</h2>
-  <p>
-    Mechanical Engineer with 7+ years of experience in mechanical design and quality control.
-    Skilled in CAD modeling, GD&T, and manufacturing processes. Focused on delivering efficient,
-    high-quality engineering solutions.
-  </p>
-</section>
+  <div class="card">
+    Mechanical Engineer with 7+ years of experience in design and quality control. Expertise in CAD, GD&T, and manufacturing processes. Proven ability to optimize designs and implement quality systems aligned with industry standards.
+  </div>
+</div>
 
-<section id="skills">
+<!-- SKILLS -->
+<div class="section">
   <h2>Skills</h2>
-  <ul>
-    <li>SolidWorks (CAD)</li>
-    <li>GD&T</li>
-    <li>Mechanical Drafting</li>
-    <li>Quality Assurance</li>
-    <li>Manufacturing Processes</li>
-    <li>Team Leadership</li>
-  </ul>
-</section>
+  <div class="grid">
+    <div class="card">SolidWorks (CAD)</div>
+    <div class="card">GD&T</div>
+    <div class="card">Mechanical Drafting</div>
+    <div class="card">Quality Assurance</div>
+    <div class="card">Manufacturing Processes</div>
+    <div class="card">Team Leadership</div>
+  </div>
+</div>
 
-<section id="experience">
+<!-- EXPERIENCE -->
+<div class="section">
   <h2>Experience</h2>
 
-  <p><strong>Design Technician</strong> – Battlefield International Inc (2023–Present)</p>
-  <ul>
-    <li>Design mechanical components and assemblies</li>
-    <li>Optimize product designs for performance and efficiency</li>
-  </ul>
+  <div class="card">
+    <strong>Design Technician</strong> — Battlefield International Inc<br>
+    2023–Present<br><br>
+    • Mechanical design and assembly development<br>
+    • Product optimization and efficiency improvement
+  </div>
 
-  <p><strong>Quality Specialist</strong> – Battlefield International Inc (2019–2023)</p>
-  <ul>
-    <li>Develop and implement quality control plans</li>
-    <li>Ensure compliance with industry standards</li>
-  </ul>
+  <div class="card">
+    <strong>Quality Specialist</strong> — Battlefield International Inc<br>
+    2019–2023<br><br>
+    • Quality control systems implementation<br>
+    • Compliance with industry standards
+  </div>
 
-  <p><strong>Design Technician</strong> – Sagar Group Enterprise (2016–2018)</p>
-  <ul>
-    <li>Designed mechanical sub-systems and assemblies</li>
-  </ul>
+  <div class="card">
+    <strong>Design Technician</strong> — Sagar Group Enterprise<br>
+    2016–2018<br><br>
+    • Mechanical subsystem design and development
+  </div>
+</div>
 
-</section>
-
-<section id="projects">
+<!-- PROJECTS -->
+<div class="section">
   <h2>Projects</h2>
 
-  <div class="project">
-    <strong>Truck Body Design</strong>
-    <p>Designed truck body structures focusing on durability and manufacturability.</p>
+  <div class="grid">
+    <div class="card">
+      <strong>Truck Body Design</strong><br><br>
+      Structural design focused on durability and manufacturability.
+    </div>
+
+    <div class="card">
+      <strong>Sheet Metal Design</strong><br><br>
+      Precision sheet metal parts with accurate bending and tolerances.
+    </div>
+
+    <div class="card">
+      <strong>Quality Systems</strong><br><br>
+      Improved product reliability through QA processes.
+    </div>
   </div>
+</div>
 
-  <div class="project">
-    <strong>Sheet Metal Design</strong>
-    <p>Developed sheet metal parts using SolidWorks with precise bending and tolerances.</p>
-  </div>
-
-  <div class="project">
-    <strong>Quality Improvement Systems</strong>
-    <p>Implemented QA systems improving product reliability and consistency.</p>
-  </div>
-
-</section>
-
-<section id="contact">
+<!-- CONTACT -->
+<div class="section contact">
   <h2>Contact</h2>
   <p>Email: brijenkanjia16@gmail.com</p>
   <p>Phone: 226-503-7972</p>
-</section>
+</div>
 
 <footer>
-  <p>© 2026 Brijen Kanjia</p>
+  © 2026 Brijen Kanjia
 </footer>
 
 </body>
