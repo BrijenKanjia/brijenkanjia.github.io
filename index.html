@@ -1,79 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-/* Project Card Style - Brijen Kanjia Aesthetic */
-        .project { margin-bottom: 120px; transition: 0.3s; }
-        .project img { width: 100%; border-radius: 12px; filter: grayscale(20%); transition: 0.5s; margin-bottom: 25px; border: 1px solid #333; }
-        .project img:hover { filter: grayscale(0%); transform: scale(1.01); border-color: #666; }
-        .project-tags { color: var(--text); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; display: block; }
-        h2 { font-size: 2rem; margin: 0 0 15px 0; }
-        .description { color: var(--text); max-width: 700px; }
+  <meta charset="UTF-8">
+  <title>Brijen Kanjia | Mechanical Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
 
-    <title>Mechanical Designer | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        :root { --bg: #0a0a0a; --card: #161616; --accent: #ffffff; --text: #a0a0a0; }
-        body { background: var(--bg); color: white; font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 80px 20px; }
-        
-        /* Header Style */
-        header { margin-bottom: 100px; }
-        h1 { font-size: 3.5rem; letter-spacing: -2px; margin: 0; }
-        .subtitle { color: var(--text); font-size: 1.2rem; font-weight: 300; }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
 
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
 
-        /* Tech Stack "Pills" */
-        .pills { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
-        .pill { background: #222; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; color: #fff; border: 1px solid #333; }
+    header p {
+      margin-top: 10px;
+      color: #94a3b8;
+    }
 
-        footer { border-top: 1px solid #222; padding-top: 40px; color: var(--text); font-size: 0.9rem; }
-        a { color: white; text-decoration: none; border-bottom: 1px solid #444; }
-    </style>
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      background: #1e293b;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+      color: #38bdf8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #0f172a;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #64748b;
+      margin-top: 30px;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
 
-    <div class="container">
-        <header>
-            <span class="project-tags">Mechanical Designer | 8 Years Exp.</span>
-            <h1>BRIJEN KANJIA</h1>
-            <p class="subtitle">Focusing on Kinematics, Industrial Automation, and Product Design logic.</p>
-        </header>
+<header>
+  <h1>Brijen Kanjia</h1>
+  <p>Mechanical Engineer | Design & Quality Specialist</p>
+</header>
 
-        <section class="project">
-            <span class="project-tags">Mechanism Design • Motion Study</span>
-            <img src="geneva_main.jpg" alt="Geneva Wheel Project">
-            <h2>Conveyor Belt Indexing: Geneva Mechanism</h2>
-            <p class="description">
-                Engineered a 4-slot Geneva wheel system to convert continuous 5V DC motor rotation into precise 90° intermittent steps. 
-                Designed for high-reliability environments where electronic sensor drift must be eliminated through mechanical locking.
-            </p>
-            <div class="pills">
-                <span class="pill">SolidWorks</span><span class="pill">Kinematics</span><span class="pill">H-Bridge</span>
-            </div>
-        </section>
+<section>
+  <h2>About Me</h2>
+  <p>
+    Mechanical Engineer with 7+ years of experience in mechanical design and quality control.
+    Skilled in CAD modeling, GD&T, and manufacturing processes. Focused on delivering efficient,
+    high-quality engineering solutions.
+  </p>
+</section>
 
-        <section class="project">
-            <span class="project-tags">Mechatronics • Automation</span>
-            <img src="feed_station.jpg" alt="Feed Station Project">
-            <h2>Automatic Feed Station Assembly</h2>
-            <p class="description">
-                A fully automated material handling station featuring laser-integrated sensing. 
-                Developed to synchronize the material feed rate with downstream cutting operations using pneumatic actuation and sheet metal sub-assemblies.
-            </p>
-            <div class="pills">
-                <span class="pill">Laser Sensors</span><span class="pill">Pneumatics</span><span class="pill">Sheet Metal</span>
-            </div>
-        </section>
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>SolidWorks (CAD)</li>
+    <li>GD&T</li>
+    <li>Mechanical Drafting</li>
+    <li>Quality Assurance</li>
+    <li>Manufacturing Processes</li>
+    <li>Team Leadership</li>
+  </ul>
+</section>
 
-        <footer>
-            <p>Based in Hamilton, ON. Currently exploring freelance partnerships. <br>
-            <a href="mailto:yourname@email.com">Email</a> / <a href="#">LinkedIn</a> / <a href="#">Resume</a></p>
-        </footer>
-    </div>
+<section>
+  <h2>Experience</h2>
+
+  <p><strong>Design Technician</strong> – Battlefield International Inc (2023–Present)</p>
+  <ul>
+    <li>Design mechanical components and assemblies</li>
+    <li>Optimize product designs for performance and efficiency</li>
+  </ul>
+
+  <p><strong>Quality Specialist</strong> – Battlefield International Inc (2019–2023)</p>
+  <ul>
+    <li>Develop and implement quality control plans</li>
+    <li>Ensure compliance with industry standards</li>
+  </ul>
+
+  <p><strong>Design Technician</strong> – Sagar Group Enterprise (2016–2018)</p>
+  <ul>
+    <li>Designed mechanical sub-systems and assemblies</li>
+  </ul>
+
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <strong>Truck Body Design</strong>
+    <p>Designed truck body structures with focus on durability and manufacturability.</p>
+  </div>
+
+  <div class="project">
+    <strong>Sheet Metal Design</strong>
+    <p>Developed sheet metal parts using SolidWorks with precise bending and tolerances.</p>
+  </div>
+
+  <div class="project">
+    <strong>Quality Improvement Systems</strong>
+    <p>Implemented QA systems improving product reliability and consistency.</p>
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: brijenkanjia16@gmail.com</p>
+  <p>Phone: 226-503-7972</p>
+</section>
+
+<footer>
+  <p>© 2026 Brijen Kanjia</p>
+</footer>
 
 </body>
 </html>
